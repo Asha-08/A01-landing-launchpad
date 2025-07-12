@@ -67,16 +67,15 @@ nav ul li{
     padding-bottom: 50px;
 }
 /* maint style*/
-main{max-width: 1140px;
-    max-height: 328px;
-    margin: 0 auto;}
-    
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 main section{
     margin-top: 130px;
-    margin-bottom: 130px;}
-
+    margin-bottom: 130px;
+}
 
 
 .action{
@@ -185,4 +184,87 @@ main section{
 .reviewer-info span {
   font-size: 13px;
   color: #777;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;       
+  padding: 60px 20px;
+  gap: 40px;                 
+  flex-wrap: wrap;           
+}
+
+.contact-text {
+  flex: 1;
+  font-size: 40px;
+  min-width: 250px;          
+}
+
+.contact-form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 300px;          
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;       
+  font-size: 16px;
+  resize: vertical;
+  min-height: 150px;         
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button.btn {
+  width: 100%;               
+  padding: 12px 0;
+  border-radius: 30px;       
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #4f6df5;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button.btn:hover {
+  background-color: #3c54c2;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #eeeeee;
+}
+
+.logo-size{
+    font-size: 70px;
+    color: #092bc6;
+}
+
+.link-clr{
+   color: #555; 
+}
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
 }
